@@ -177,8 +177,13 @@ Sticky bar
   color: var(--color-text);
 }
 .menu-button svg {
-  color: var(--color-text);
+  width: 100%;
+  height: 100%;
+  display: block;
   fill: none;
+}
+.menu-button svg line {
+  stroke: var(--color-text);
 }
 section {
   scroll-margin-top: calc(var(--sticky-bar-height) + 24px);
@@ -209,7 +214,7 @@ Navigation Panel
 }
 @media (max-width: 639px) {
   .navigation-menu {
-    width: min(400px, 80vw);
+    width: min(400px, 85vw);
   }
 }
 .navigation-menu-backdrop {
@@ -349,7 +354,7 @@ Main Content
 
 @media (max-width: 639px) {
   .main-inner {
-    width: calc(100% - 86px);
+    width: calc(100% - 78px);
     padding-bottom: 80px;
   }
 }
