@@ -215,6 +215,7 @@ Navigation Panel
 @media (max-width: 639px) {
   .navigation-menu {
     width: min(400px, 85vw);
+    padding: 18px 36px;
   }
 }
 .navigation-menu-backdrop {
