@@ -7,7 +7,7 @@ export const paymentItems = [
     {
         title: "Final Payment",
         description: 
-            "The remaining balance must be paid in full before the artwork is shipped.",
+            "The remaining balance must be paid in full before the artwork is shipped or delivered.",
     },
     {
         title: "Location",

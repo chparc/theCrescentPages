@@ -25,6 +25,11 @@ export const considerationsItems = [
             "A 30% non-refundable deposit is required to begin work after the commission has been quoted and approved.",
     },
     {
+        title: "Cancellation & Refund",
+        description:
+            "Because commissioned artwork is created specifically for each client, commissions cannot be cancelled or refunded once work has begun.",
+    },
+    {
         title: "Location & Payment",
         description:
             "I currently accept commissions from clients in Ontario, Canada, with payment made in CAD via e-transfer.",
